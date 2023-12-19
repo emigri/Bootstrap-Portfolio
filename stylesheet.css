@@ -1,3 +1,32 @@
 .navbar {
   background-color: bisque;
 }
+
+.jumbotron {
+  background-color: bisque;
+}
+
+p {
+  text-align: center;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.row {
+  align-items: center;
+}
+
+a:hover  {
+  background-color: #fff;
+  }
+
+.btn {
+  box-shadow: 50px !important;
+}
+
+.btn:hover {
+  color: black !important;
+  background-color: #fff !important;
+}
