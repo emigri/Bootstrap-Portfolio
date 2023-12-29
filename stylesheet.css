@@ -1,16 +1,11 @@
-.navbar {
+* {
   background-color: bisque;
 }
-
-.jumbotron {
-  background-color: bisque;
-}
-
 p {
   text-align: center;
 }
 
-img {
+#avatar{
   border-radius: 50%;
 }
 

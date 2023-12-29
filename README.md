@@ -22,7 +22,7 @@ Portfolio created using HTML, CSS and bootstrap
     
     Listed the skills I expect to learn from the bootcamp using bootstrap item list
 
-   Contact section.
+  Contact section.
 
     An "About Me" section in the same row.
     
