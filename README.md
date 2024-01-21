@@ -3,20 +3,17 @@ Portfolio created using HTML, CSS and bootstrap
 
 
   Navigation bar
-    For the Nav Bar I used the standard navbar bootstrap code - gave placeholder links at this point as I wasn't sure how to link to sections of the page just yet.
-    This section will be fixed and move down with the page as you scroll
+    For the Nav Bar I used the standard navbar bootstrap code.
+    Links lead to sections of the page
 
   Hero section
 
     Used a jumbotron featuring my picture, name, and a little introduction. 
-    I used bootstrap grid and gave it threee sections, leaving one empty so the photograph can be in the middle. The image also needs to be centred in the div but I couldn't find a way yet
-    I plan to centre the intro p tag, give it better styling and positioning and give the section
 
   Work section
 
     This section displays three bootstrap cards linking to websites that I used as inspiration for this particulart project.
     I plan to use icons to illjustrate which languages and frameworks i used in addition to a small description of my projects
-    The cards will include a screenshot of the page with JS features to make it stand out and be more interactive
 
   Skills section
     
@@ -28,8 +25,8 @@ Portfolio created using HTML, CSS and bootstrap
     
   Footer section.
 
-    All hyperlinks should have a hover effect.
+    All hyperlinks have a hover effect.
 
-    All buttons should display a box shadow upon hover.
+    All buttons display a box shadow upon hover.
     
     Had no time to go through the media queries but I've tried my best to have a mobile first approach to the page in order to minimize media queries
