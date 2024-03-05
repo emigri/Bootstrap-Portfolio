@@ -6,7 +6,7 @@ body {
   border-radius: 8px;
 }
 
-#heading {
+.heading {
   text-align: center;
   padding: 20px;
 }

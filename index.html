@@ -18,10 +18,10 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">Skills</a>
+          <a class="nav-link" aria-current="page" href="#skills">Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#project-cards">Projects</a>
+          <a class="nav-link" href="#projects">Projects</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#contact-me">Contact</a>
@@ -36,20 +36,20 @@
       <div class="container" id="hero-section">
         <h1 class="display-6">Emily Grivot</h1>
         <p class="lead">My name is Emily. A Bristol-based web developer</p>
-        <img src="/03_Ems_Bootstrap_Portfolio/Images/Ems-logo.jpg" id="avatar" alt="..."></img>
+        <img src="./Images/Ems-logo.jpg" id="avatar" alt="..."></img>
       </div>
     </div>
   </header>
 
 <!-- My Projects -->
-<section>
-  <h3 id="heading">My Projects</h3>
-  <div class="container-fluid" id="projects">
-    <div class="row" id="project-cards">
+<section id="projects">
+  <h3 class="heading">My Projects</h3>
+  <div class="container-fluid" >
+    <div class="row">
 
       <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
         <div class="card">
-          <img src="https://placehold.co/400" alt="...">
+          <img src="https://placehold.co/600x400" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">LinkedIn</h5>
             <p class="card-text">Used my linked in as a reference on how to structure my portfolio and how I could present my skills list</p>
@@ -60,7 +60,7 @@
 
       <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
       <div class="card">
-        <img src="https://placehold.co/400" alt="...">
+        <img src="https://placehold.co/600x400" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Example portfolio</h5>
           <p class="card-text">This portfolio I used as a reference as it shows a clear, minimalisting but effective layout</p>
@@ -71,7 +71,7 @@
 
       <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
       <div class="card">
-        <img src="https://placehold.co/400" alt="...">
+        <img src="https://placehold.co/600x400" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -86,8 +86,8 @@
 <!-- Close projects section -->
 
 <!-- Skills section -->
-<section>
-  <h3 id="heading">Skills</h3>
+<section id="skills">
+  <h3 class="heading" >Skills</h3>
     <ul class="list-group" id="skills-list">
      <h5 class="subheading">Languages</h5>
      <li class="list-group-item">HTML</li>
@@ -109,7 +109,7 @@
   </section>
 <!-- Contact me -->
 <section id="contact-me">
-  <h3 id="heading">Contact me</h3>
+  <h3 class="heading">Contact me</h3>
   <button type="button" class="btn btn-success">Lets start a conversation</button>
 </section>
 
